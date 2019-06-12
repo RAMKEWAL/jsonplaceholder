@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+// @import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+// @import '~ngx-toastr/toastr';
+
+.block_table {
+  .mat-table {
+    .mat-cell {
+      button {
+        color: #fff;
+        border: none;
+        border-radius: 3px;
+        font-size: 12px;
+        padding: 4px 12px;
+      }
+      .editBtn {
+        background-color: #0074e8;
+      }
+      .deleteBtn {
+        background-color: #e13137;
+      }
+    }
+  }
+}
